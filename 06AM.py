@@ -8,7 +8,7 @@ step = 0.01
 x = list(np.arange(0,5,step))
 x.append(x[-1]+step)
 A = 5
-f = 20
+f = 8
 phase = 0
 x = np.array(x)
 
@@ -19,8 +19,8 @@ axis[0].plot(x,y,color='blue')
 axis[0].set_title('Carrier Signal')
 
 #Main Signal
-sig_f = 1
-y1 = A*((np.sin(2*np.pi*sig_f*x+phase))**3 + (np.cos(2*np.pi*sig_f*x+phase))**2)
+sig_f = 0.5
+y1 = A*((np.sin(2*np.pi*sig_f*x+phase))**3 - (np.cos(2*np.pi*sig_f*x+phase))**2)
 axis[1].grid(True)
 axis[1].plot(x,y1,color='green')
 axis[1].set_title('Send Signal')
