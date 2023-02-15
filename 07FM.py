@@ -22,15 +22,28 @@ axis[0].set_title('Carrier Signal')
 #Main Signal
 sig_f = 0.2
 #y1 = A*((np.sin(2*np.pi*sig_f*x+phase))**3 + (np.cos(2*np.pi*sig_f*x+phase))**2)
-y1 = ((np.sin(2*np.pi*sig_f*x+phase)))
+y1 = ((np.sin(8*np.pi*sig_f*x+phase)))
 axis[1].grid(True)
 axis[1].plot(x,y1,color='green')
 axis[1].set_title('Send Signal')
 
-#Modulated Signal
-y2 = A*np.sin(2*np.pi*(f+y1)*x+phase)
+# #Modulated Signal
+# y2 = A*np.sin(2*np.pi*(f+y1)*x+phase)
+# axis[2].grid(True)
+# axis[2].plot(x,y2,color='red')
+# axis[2].set_title('Frequency Modulation Signal')
+
+fc = 10 # carrier frequency
+k = 0.4 # sensitivity
+phi = 2*np.pi*fc*x + k*np.cumsum(y1) # phase
+# cim = np.cumsum(y1)
+# print(cim[0:100])
+
+sig_mod = np.cos(phi)
+
 axis[2].grid(True)
-axis[2].plot(x,y2,color='red')
+axis[2].plot(x,sig_mod,color='blue')
 axis[2].set_title('Frequency Modulation Signal')
+
 plt.show()
 
