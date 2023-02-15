@@ -3,6 +3,7 @@ import numpy as np
 
 
 figure, axis = plt.subplots(3)
+plt.tight_layout()
 #Carrier sigla
 step = 0.01
 x = list(np.arange(0,5,step))

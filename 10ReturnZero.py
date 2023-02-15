@@ -28,7 +28,9 @@ while True:
     y.append(0)
     x = np.arange(0,len(inp)+1,1)
     print('y is :',y)
+    
     figure, axis = plt.subplots(2)
+    
     # For Unipolar Representation
     axis[0].grid(True)
     axis[0].step(x,y,where='post')
