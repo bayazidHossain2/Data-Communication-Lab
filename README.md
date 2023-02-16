@@ -11,4 +11,6 @@ This project is for academic purpose. It will help us visualize signal generatio
 <img src="Images/8 a.jpg" height="400" width="500"><img src="Images/8 b.jpg" height="400" width="500"><br><br>
 <img src="Images/9 a.jpg" height="400" width="500"><img src="Images/9 b.jpg" height="400" width="500"><br><br>
 <img src="Images/10 a.jpg" height="400" width="500"><img src="Images/10 b.jpg" height="400" width="500"><br><br>
+<img src="Images/11a.jpg" height="400" width="500"><img src="Images/11b.jpg" height="400" width="500"><br><br>
+<img src="Images/12a.jpg" height="400" width="500"><img src="Images/12b.jpg" height="400" width="500"><br><br>
 
