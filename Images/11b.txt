@@ -1,0 +1,37 @@
+Enter Message signal : 1011101
+-> Message len :  7  -> Redundant len :  4  -> Total len :  11
+1 is a power of 2.
+2 is a power of 2.
+4 is a power of 2.
+8 is a power of 2.
+Mid Message is :  [0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1]
+1 is a power of 2.
+1 0 th parity is added :  0
+3 1 th parity is added :  1
+5 0 th parity is added :  1
+7 1 th parity is added :  2
+9 1 th parity is added :  3
+11 1 th parity is added :  4
+1 Redundant parity is :  4  hamming :  0
+2 is a power of 2.
+2 0 th parity is added :  0
+3 1 th parity is added :  1
+6 1 th parity is added :  2
+7 1 th parity is added :  3
+10 0 th parity is added :  3
+11 1 th parity is added :  4
+2 Redundant parity is :  4  hamming :  0
+4 is a power of 2.
+4 0 th parity is added :  0
+5 0 th parity is added :  0
+6 1 th parity is added :  1
+7 1 th parity is added :  2
+4 Redundant parity is :  2  hamming :  0
+8 is a power of 2.
+8 0 th parity is added :  0
+9 1 th parity is added :  1
+10 0 th parity is added :  1
+11 1 th parity is added :  2
+8 Redundant parity is :  2  hamming :  0
+--------Hamming code is --------
+[0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1]

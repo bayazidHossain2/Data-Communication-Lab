@@ -22,7 +22,8 @@ axis[0].set_title('Carrier Signal')
 #Main Signal
 sig_f = 0.2
 #y1 = A*((np.sin(2*np.pi*sig_f*x+phase))**3 + (np.cos(2*np.pi*sig_f*x+phase))**2)
-y1 = ((np.sin(8*np.pi*sig_f*x+phase)))
+y1 = ((np.sin(3*np.pi*sig_f*x+phase)))
+
 axis[1].grid(True)
 axis[1].plot(x,y1,color='green')
 axis[1].set_title('Send Signal')

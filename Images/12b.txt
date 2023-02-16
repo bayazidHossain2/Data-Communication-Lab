@@ -1,0 +1,31 @@
+Enter Message signal : 10101111001
+1 is a power of 2.
+1 1 th parity is added :  1
+3 1 th parity is added :  2
+5 1 th parity is added :  3
+7 1 th parity is added :  4
+9 0 th parity is added :  4
+11 1 th parity is added :  5
+1 Redundant parity is :  5  hamming :  1
+2 is a power of 2.
+2 0 th parity is added :  0
+3 1 th parity is added :  1
+6 1 th parity is added :  2
+7 1 th parity is added :  3
+10 0 th parity is added :  3
+11 1 th parity is added :  4
+2 Redundant parity is :  4  hamming :  0
+4 is a power of 2.
+4 0 th parity is added :  0
+5 1 th parity is added :  1
+6 1 th parity is added :  2
+7 1 th parity is added :  3
+4 Redundant parity is :  3  hamming :  1
+8 is a power of 2.
+8 1 th parity is added :  1
+9 0 th parity is added :  1
+10 0 th parity is added :  1
+11 1 th parity is added :  2
+8 Redundant parity is :  2  hamming :  0
+--------Missmatch code is --------
+[1, 0, 1, 0]
