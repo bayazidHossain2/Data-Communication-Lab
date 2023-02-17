@@ -1,0 +1,33 @@
+Enter Message Signal : 1011101
+-> Message len : 7  -> Redundant len : 4  -> Total len : 11
+Before Calculating Redundant Bit :  [0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1]
+         1 th bit parity calculation
+                 1 th bit 0 total parity : 0
+                 3 th bit 1 total parity : 1
+                 5 th bit 0 total parity : 1
+                 7 th bit 1 total parity : 2
+                 9 th bit 1 total parity : 3
+                 11 th bit 1 total parity : 4
+         1 th Parity will : 0
+         2 th bit parity calculation
+                 2 th bit 0 total parity : 0
+                 3 th bit 1 total parity : 1
+                 6 th bit 1 total parity : 2
+                 7 th bit 1 total parity : 3
+                 10 th bit 0 total parity : 3
+                 11 th bit 1 total parity : 4
+         2 th Parity will : 0
+         4 th bit parity calculation
+                 4 th bit 0 total parity : 0
+                 5 th bit 0 total parity : 0
+                 6 th bit 1 total parity : 1
+                 7 th bit 1 total parity : 2
+         4 th Parity will : 0
+         8 th bit parity calculation
+                 8 th bit 0 total parity : 0
+                 9 th bit 1 total parity : 1
+                 10 th bit 0 total parity : 1
+                 11 th bit 1 total parity : 2
+         8 th Parity will : 0
+-----------Generated Hamming code is------------
+[0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1]
