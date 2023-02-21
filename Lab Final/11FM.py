@@ -16,10 +16,10 @@ axis[0].set_title('Carrier Signal')
 #Message Signal
 message_time = np.arange(0,5,0.01)
 message_A = 1
-message_f = 0.4
-message_phase = (np.pi/2)
+message_f = 0.8
+message_phase = (np.pi/8)
 thita = 2*np.pi*message_f*message_time+message_phase
-message_amplitude = message_A*np.sin(thita)
+message_amplitude = message_A*np.cos(thita)
 axis[1].plot(message_time,message_amplitude)
 axis[1].set_title('Message Signal')
 
